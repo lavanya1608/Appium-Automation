@@ -43,3 +43,13 @@ TC001_Validating user lands on the expected landing page for the League choosen
 TC002_Validating Leagues sub- tab page corresponds to the Leagues selected
 
 TC003_Validating back navigation returns user to the previous page correctly
+
+
+# Test Approach
+
+The test approach for the automation focuses on validating the functionality of the Leagues tab and its sub-tabs in theScoreApp for Android as a guest user. The tests are designed to ensure that the user can navigate to the expected landing page for the selected league, that the sub-tab page corresponds to the selected league, and that the back navigation returns the user to the previous page correctly.
+
+
+# Test Coverage
+
+The test coverage targets the main user flows within the Leagues tab and its sub-tabs, including selecting a league, viewing results, selecting a sub-tab, and navigating back. The use of scenario outlines and examples allows for testing multiple leagues and sub-tabs with a single test case, increasing the efficiency and coverage of the tests. Overall, this test approach provides comprehensive coverage of the feature being tested
